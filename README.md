@@ -1,4 +1,5 @@
-
+### Live demo
+https://antonmoller.github.io/7GUIs_cljs/
 ### Development mode
 ```
 npm install
