@@ -426,7 +426,7 @@
        [:h6 {:style (:description home-style)} "An implementation of "
         [:a {:href "https://eugenkiss.github.io/7guis/"} "the 7GUIs benchmark "]
         "written in clojurescript/reagent. The source code is on "
-        [:a {:href "https://github.com/antonmoller/seven_guis_clojurescript"} "GitHub."]]
+        [:a {:href "https://github.com/antonmoller/7GUIs_cljs"} "GitHub."]]
        (into [:div {:style (:menu home-style)}]
              (for [panel panels]
                [card {:on-click #(change-panel panel) :active (panel? panel)} panel]))
